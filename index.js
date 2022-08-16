@@ -1,14 +1,15 @@
 import dotenv from "dotenv";
 import express from "express";
 import mongoose from "mongoose";
+import cookieParser from "cookie-parser";
 import usersRoute from "./routes/users.js";
 import hotelsRoute from "./routes/hotels.js";
 import roomsRoute from "./routes/rooms.js";
 import authRoute from "./routes/auth.js";
 
 const app = express();
-dotenv.config();
 const port = 8000;
+dotenv.config();
 
 const connect = async () => {
   try {
@@ -27,6 +28,7 @@ mongoose.connection.on("disconnected", () => {
 });
 
 //middleware
+app.use(cookieParser());
 app.use(express.json());
 app.use("/users", usersRoute);
 app.use("/hotels", hotelsRoute);
