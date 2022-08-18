@@ -15,6 +15,7 @@ npm run start
 ### Register User
 ```
 localhost:8000/auth/register
+
 {
 "name":"Test",
 "email":"test@gmail.com",
