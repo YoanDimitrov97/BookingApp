@@ -20,6 +20,6 @@ localhost:8000/auth/register
 "name":"Test",
 "email":"test@gmail.com",
 "password":"test",
-"isAdmin":true,
+"isAdmin":true
 }
 ```
