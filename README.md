@@ -17,7 +17,7 @@ npm run start
 ### Register User
 ```
 POST: localhost:8000/auth/register
-```
+
 {
   "name":"Test",
   "email":"test@gmail.com",
@@ -29,7 +29,7 @@ POST: localhost:8000/auth/register
 ### Login User
 ```
 POST: localhost:8000/auth/login
-```
+
 {
   "name":"Test",
   "password":"test"
@@ -39,7 +39,7 @@ POST: localhost:8000/auth/login
 ### Create Hotel
 ```
 POST: localhost:8000/hotels
-```
+
 {
 	"name": "Hotel Marinela3",
 	"type": "hotel",
