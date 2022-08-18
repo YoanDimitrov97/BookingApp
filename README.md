@@ -41,13 +41,13 @@ POST: localhost:8000/auth/login
 POST: localhost:8000/hotels
 
 {
-	"name": "Hotel Marinela3",
-	"type": "hotel",
-	"city": "Sofia",
-	"address": "Blvd \"James Bourchier\" 100, 1407 g.k. Lozenets, Sofia",
-	"distance": "500",
-	"title": "Luxurious Hotel in Sofia",
-	"desc": "This is Hotel Marinela, a hotel in the capital city of Sofia, Bulgaria...",
-	"cheapestPrice": "120"
+  "name": "Hotel Marinela3",
+  "type": "hotel",
+  "city": "Sofia",
+  "address": "Blvd \"James Bourchier\" 100, 1407 g.k. Lozenets, Sofia",
+  "distance": "500",
+  "title": "Luxurious Hotel in Sofia",
+  "desc": "This is Hotel Marinela, a hotel in the capital city of Sofia, Bulgaria...",
+  "cheapestPrice": "120"
 }
 ```
